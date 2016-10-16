@@ -1,0 +1,8 @@
+export("CCPROMISE", "PrbPROMISE", "CANN", "PROMISE2", "PrbCor")
+importFrom(CCP, p.perm, p.asym)
+importFrom(stats, cancor, cor.test, prcomp)
+importFrom(PROMISE, promise.genestat)
+importMethodsFrom(Biobase, exprs, pData, phenoData, ExpressionSet)
+importFrom(methods, new)
+importFrom(GSEABase, setName,  geneIds)
+importFrom(utils, capture.output)
